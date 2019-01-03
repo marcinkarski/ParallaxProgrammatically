@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EB8810421DE942E0046A83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8810321DE942E0046A83D /* AppDelegate.swift */; };
-		2EB8810621DE942E0046A83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8810521DE942E0046A83D /* ViewController.swift */; };
-		2EB8810921DE942E0046A83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8810721DE942E0046A83D /* Main.storyboard */; };
+		2EB8810621DE942E0046A83D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8810521DE942E0046A83D /* MainViewController.swift */; };
 		2EB8810B21DE94300046A83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8810A21DE94300046A83D /* Assets.xcassets */; };
 		2EB8810E21DE94300046A83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8810C21DE94300046A83D /* LaunchScreen.storyboard */; };
 		2EB8811921DE94300046A83D /* ParallaxProgrammaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8811821DE94300046A83D /* ParallaxProgrammaticallyUITests.swift */; };
@@ -28,8 +27,7 @@
 /* Begin PBXFileReference section */
 		2EB8810021DE942E0046A83D /* ParallaxProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB8810321DE942E0046A83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EB8810521DE942E0046A83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EB8810821DE942E0046A83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB8810521DE942E0046A83D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2EB8810A21DE94300046A83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB8810D21DE94300046A83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB8810F21DE94300046A83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				2EB8810321DE942E0046A83D /* AppDelegate.swift */,
-				2EB8810521DE942E0046A83D /* ViewController.swift */,
-				2EB8810721DE942E0046A83D /* Main.storyboard */,
+				2EB8810521DE942E0046A83D /* MainViewController.swift */,
 				2EB8810A21DE94300046A83D /* Assets.xcassets */,
 				2EB8810C21DE94300046A83D /* LaunchScreen.storyboard */,
 				2EB8810F21DE94300046A83D /* Info.plist */,
@@ -179,7 +176,6 @@
 			files = (
 				2EB8810E21DE94300046A83D /* LaunchScreen.storyboard in Resources */,
 				2EB8810B21DE94300046A83D /* Assets.xcassets in Resources */,
-				2EB8810921DE942E0046A83D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB8810621DE942E0046A83D /* ViewController.swift in Sources */,
+				2EB8810621DE942E0046A83D /* MainViewController.swift in Sources */,
 				2EB8810421DE942E0046A83D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +217,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2EB8810721DE942E0046A83D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EB8810821DE942E0046A83D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2EB8810C21DE94300046A83D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = axaneo.ParallaxProgrammatically;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = axaneo.ParallaxProgrammatically;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
